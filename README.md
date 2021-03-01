@@ -2,7 +2,7 @@
 desafio inmetrics
 
 Clone o projeto e abra ele no Eclipse.<br/><br/>
-1 - Ao abrir o projeto no Ecliple de um clique com o botão direito em cima do projeto, selecione <b>"Maven > Update Project"</b>, selecione o campo <b>"Force Update of Snapshots/Releases"</b> e clique em ok.<br/><br/>
+1 - Ao abrir o projeto <b>"teste-inmetrics"</b> localizado na pasta <b>"inmetrics"</b> no Eclipse de um clique com o botão direito em cima do projeto, selecione <b>"Maven > Update Project"</b>, selecione o campo <b>"Force Update of Snapshots/Releases"</b> e clique em ok.<br/><br/>
 2 - Abra o arquivo Utils.java localizado em "src/test/java/Utils". <br/><br/>
 3 - no Campo "System.setProperty("webdriver.chrome.driver", <b>"c:\\drivers\\chromedriver.exe"</b>);" modifique a localização do chromedriver.exe para onde se encontra o driver em seu computador".<br/><br/>
 4 - Abra o arquivo RunCucumberTest.java localizado em <b>"src\test\java\br\com\inmetrics\teste\runner"</b> e rode ele com o <b>"JunitTest"</b>.<br/><br/>
