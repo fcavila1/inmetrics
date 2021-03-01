@@ -1,6 +1,8 @@
 # inmetrics
 Desafio InMetrics
 
+<h1>O projeto e suas evidências se encontram na branch <b>master</b>.
+
 Clone o projeto e abra ele no Eclipse.<br/><br/>
 1 - Ao abrir o projeto <b>teste-inmetrics</b> no Eclipse de um clique com o botão direito em cima do projeto, selecione <b>"Maven > Update Project"</b>, selecione o campo <b>"Force Update of Snapshots/Releases"</b> e clique em ok.<br/><br/>
 2 - Abra o arquivo Utils.java localizado em "src/test/java/Utils". <br/><br/>
