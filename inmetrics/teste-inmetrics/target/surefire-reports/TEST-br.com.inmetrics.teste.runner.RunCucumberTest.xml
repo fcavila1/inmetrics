@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.com.inmetrics.teste.runner.RunCucumberTest" time="242.291" tests="47" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Fernando\Documents\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="maven.conf" value="C:\Users\Fernando\Documents\apache-maven-3.6.3\bin\../conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\Fernando\Documents\apache-maven-3.6.3\bin\.."/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Fernando"/>
+    <property name="user.language" value="pt"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.8_10"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="user.name" value="Fernando"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.8.10.1"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Fernando\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="C:\Users\Fernando\Documents\InMetrics\ProjetoFinal\inmetrics\teste-inmetrics"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Fernando\Documents\InMetrics\ProjetoFinal\inmetrics\teste-inmetrics"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files\Git\cmd;C:\Users\Fernando\Documents\apache-maven-3.6.3\bin;C:\drivers;C:\Users\Fernando\.m2\repository\allure-2.7.0\bin;C:\Users\Fernando\Anaconda3;C:\Users\Fernando\Anaconda3\Library\mingw-w64\bin;C:\Users\Fernando\Anaconda3\Library\usr\bin;C:\Users\Fernando\Anaconda3\Library\bin;C:\Users\Fernando\Anaconda3\Scripts;C:\Users\Fernando\AppData\Local\Microsoft\WindowsApps;C:\Users\Fernando\AppData\Roaming\npm;C:\Users\Fernando\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\4.4\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="classworlds.conf" value="C:\Users\Fernando\Documents\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Users\Fernando\Documents\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Dado que estou acessando a aplicação" classname="Cenario: Deve cadastrar um usuário com sucesso" time="0.004"/>
+  <testcase name="E acesso a página de cadastro de usuários" classname="Cenario: Deve cadastrar um usuário com sucesso" time="0"/>
+  <testcase name="Quando informo o usuário &quot;desafioTeste&quot;" classname="Cenario: Deve cadastrar um usuário com sucesso" time="0.003"/>
+  <testcase name="E informo a senha &quot;desafioTeste&quot;" classname="Cenario: Deve cadastrar um usuário com sucesso" time="0.001"/>
+  <testcase name="E confirmo a senha &quot;desafioTeste&quot;" classname="Cenario: Deve cadastrar um usuário com sucesso" time="0"/>
+  <testcase name="Quando seleciono o botao Cadastrar" classname="Cenario: Deve cadastrar um usuário com sucesso" time="0"/>
+  <testcase name="Entao a aplicação retorna para a página de Login" classname="Cenario: Deve cadastrar um usuário com sucesso" time="0"/>
+  <testcase name="Cenario: Deve cadastrar um usuário com sucesso" classname="Cenario: Deve cadastrar um usuário com sucesso" time="4.957"/>
+  <testcase name="Dado que estou acessando a aplicação" classname="Cenario: Deve realizar o login de um usuário cadastrado" time="0"/>
+  <testcase name="Quando informo o usuário cadastrado &quot;desafioTeste1&quot;" classname="Cenario: Deve realizar o login de um usuário cadastrado" time="0"/>
+  <testcase name="E informo a senha &quot;desafioTeste1&quot;" classname="Cenario: Deve realizar o login de um usuário cadastrado" time="0"/>
+  <testcase name="Quando seleciono o botao Entre" classname="Cenario: Deve realizar o login de um usuário cadastrado" time="0"/>
+  <testcase name="Entao a aplicação mostra a tabela de usuários cadastrados" classname="Cenario: Deve realizar o login de um usuário cadastrado" time="0"/>
+  <testcase name="Cenario: Deve realizar o login de um usuário cadastrado" classname="Cenario: Deve realizar o login de um usuário cadastrado" time="4.903"/>
+  <testcase name="Dado que estou acessando a aplicação" classname="Cenario: Cadastrar um Funcionário" time="0"/>
+  <testcase name="E realizar o login com o usuario &quot;desafioTeste1&quot; e a senha &quot;desafioTeste1&quot;" classname="Cenario: Cadastrar um Funcionário" time="0"/>
+  <testcase name="Quando eu selecionar o link NOVO FUNCIONÁRIO" classname="Cenario: Cadastrar um Funcionário" time="0"/>
+  <testcase name="E informar os dados válidos de um funcionário" classname="Cenario: Cadastrar um Funcionário" time="0"/>
+  <testcase name="E enviar o formulário" classname="Cenario: Cadastrar um Funcionário" time="0"/>
+  <testcase name="Entao o sistema exibirá a mensagem de sucesso" classname="Cenario: Cadastrar um Funcionário" time="0"/>
+  <testcase name="Cenario: Cadastrar um Funcionário" classname="Cenario: Cadastrar um Funcionário" time="5.321"/>
+  <testcase name="Dado que estou acessando a aplicação" classname="Cenario: Editar um Funcionário" time="0.001"/>
+  <testcase name="E realizar o login com o usuario &quot;desafioTeste1&quot; e a senha &quot;desafioTeste1&quot;" classname="Cenario: Editar um Funcionário" time="0"/>
+  <testcase name="E pesquisar o funcionário &quot;Carlos Dantas&quot;" classname="Cenario: Editar um Funcionário" time="0"/>
+  <testcase name="Quando eu clicar no botao para editar os dados do funcionário pesquisado" classname="Cenario: Editar um Funcionário" time="0"/>
+  <testcase name="E editar seus dados" classname="Cenario: Editar um Funcionário" time="0"/>
+  <testcase name="E enviar o formulário" classname="Cenario: Editar um Funcionário" time="0"/>
+  <testcase name="Entao o sistema exibirá a mensagem de sucesso" classname="Cenario: Editar um Funcionário" time="0"/>
+  <testcase name="Cenario: Editar um Funcionário" classname="Cenario: Editar um Funcionário" time="5.715"/>
+  <testcase name="Dado que estou acessando a aplicação" classname="Cenario: Excluir um Funcionário" time="0"/>
+  <testcase name="E realizar o login com o usuario &quot;desafioTeste1&quot; e a senha &quot;desafioTeste1&quot;" classname="Cenario: Excluir um Funcionário" time="0"/>
+  <testcase name="E pesquisar o funcionário &quot;Carlos Dantas&quot;" classname="Cenario: Excluir um Funcionário" time="0"/>
+  <testcase name="Quando eu clicar no botao para excluir o funcionário pesquisado" classname="Cenario: Excluir um Funcionário" time="0.001"/>
+  <testcase name="Entao o sistema exibirá a mensagem de sucesso" classname="Cenario: Excluir um Funcionário" time="0"/>
+  <testcase name="Cenario: Excluir um Funcionário" classname="Cenario: Excluir um Funcionário" time="4.873"/>
+  <testcase name="Dado que o usuário cadastre um empregado com admissao &quot;20/02/2020&quot;, cargo &quot;Analista&quot;, comissao &quot;0,00&quot;, cpf &quot;929.376.570-52&quot; departamentoId 1, nome &quot;Fernando Avila FEITO PELA API NAO DELETAR&quot;, salario &quot;1.000,00&quot;, sexo &quot;m&quot; e tipo de contratacao &quot;clt&quot;" classname="Cenario: Deve cadastrar um empregado pela Api" time="0"/>
+  <testcase name="Entao o status code ao cadastrar um empregado deve ser 202 e me retornar o empregado com nome &quot;Fernando Avila FEITO PELA API NAO DELETAR&quot;" classname="Cenario: Deve cadastrar um empregado pela Api" time="0.003"/>
+  <testcase name="Cenario: Deve cadastrar um empregado pela Api" classname="Cenario: Deve cadastrar um empregado pela Api" time="0.025"/>
+  <testcase name="Dado que o usuário deseja consultar o último empregado cadastrado" classname="Cenario: Deve listar um empregado cadastrado pela Api" time="0"/>
+  <testcase name="Entao o status code ao consultar um empregado deve ser 202 e retornar o nome do usuário" classname="Cenario: Deve listar um empregado cadastrado pela Api" time="0"/>
+  <testcase name="Cenario: Deve listar um empregado cadastrado pela Api" classname="Cenario: Deve listar um empregado cadastrado pela Api" time="0.012"/>
+  <testcase name="Dado que o usuário deseja listar todos os empregados cadastrados" classname="Cenario: Deve listar todos empregados cadastrados pela Api" time="0"/>
+  <testcase name="Entao o status code ao listar todos os empregados deve ser 200 e a lista deve ser maior que 0 ocorrências" classname="Cenario: Deve listar todos empregados cadastrados pela Api" time="0"/>
+  <testcase name="Cenario: Deve listar todos empregados cadastrados pela Api" classname="Cenario: Deve listar todos empregados cadastrados pela Api" time="0.011"/>
+  <testcase name="Dado que o usuário deseja alterar o nome &quot;Empregado Editado API&quot;, o salário &quot;1.500,00&quot; e tipo de contratação &quot;pj&quot; do ultimo empregado cadastrado" classname="Cenario: Deve alterar um empregado cadastrados pela Api" time="0.001"/>
+  <testcase name="Entao o status code ao alterar o empregado deve ser 200 e retornar o nome do empregado editado" classname="Cenario: Deve alterar um empregado cadastrados pela Api" time="0.002">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+]]></failure>
+    <system-out><![CDATA[******************Ultimo ID cadastrado10
+Request method:	PUT
+Request URI:	https://inm-test-api.herokuapp.com/empregado/alterar/10
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "admissao": "20/02/2020",
+    "comissao": "0,00",
+    "tipoContratacao": "pj",
+    "salario": "1.500,00",
+    "cpf": "929.376.570-52",
+    "nome": "Empregado Editado API",
+    "cargo": "Analista",
+    "sexo": "m",
+    "departamentoId": 0
+}
+HTTP/1.1 400 
+Server: Cowboy
+Connection: keep-alive
+Set-Cookie: JSESSIONID=23050E0FC16EB7C95998627F9BDCEB75; Path=/; Secure; HttpOnly
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 25
+Date: Mon, 01 Mar 2021 17:13:17 GMT
+Via: 1.1 vegur
+
+Empregado não cadastrado
+]]></system-out>
+  </testcase>
+  <testcase name="Cenario: Deve alterar um empregado cadastrados pela Api" classname="Cenario: Deve alterar um empregado cadastrados pela Api" time="0.003">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+]]></failure>
+  </testcase>
+</testsuite>

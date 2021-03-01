@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: br.com.inmetrics.teste.runner.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 47, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 242.291 s <<< FAILURE! - in br.com.inmetrics.teste.runner.RunCucumberTest
+Entao o status code ao alterar o empregado deve ser 200 e retornar o nome do empregado editado(Cenario: Deve alterar um empregado cadastrados pela Api)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+
+Cenario: Deve alterar um empregado cadastrados pela Api  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+
